@@ -29,7 +29,7 @@ const Hero = () => {
 
     gsap.timeline({
       scrollTrigger: {
-        trigger: ".hero",
+        trigger: "#hero",
         start: "top top",
         end: "bottom top",
         scrub: true,
@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="content">
             <div className="space-y-5 hidden md:block">
               <p>Cool. Crisp. Classic.</p>
-              <p className="subtitile">
+              <p className="subtitle">
                 Sip the Spirit <br /> of Summer
               </p>
             </div>
